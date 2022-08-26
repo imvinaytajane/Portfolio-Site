@@ -3,6 +3,7 @@
 :root {
     --background-color: #333647;
     --theme-color: #F87652;
+    --secondary-color:#bbbbbb;
 }
 
 * {
@@ -43,7 +44,7 @@ body {
 
 .nav_section .navbar-nav .nav-link:hover::before {
     height: 2px;
-    width: 17px;
+    width: 30px;
 }
 
 .head-section .row {
@@ -52,10 +53,7 @@ body {
     height: 100hv;
 }
 
-.head-section .row h1,
-h2,
-h3,
-p {
+.head-section .row h1,h2,h3,p {
     color: white;
 }
 
@@ -90,9 +88,23 @@ p {
 .head-section .row p {
     font-size: 13px;
     margin-top: 13px;
+    line-height: 21px;
+    color: var(--secondary-color);
 }
-
+.head-section .row button{
+    border-radius: 10px;
+    font-size: 19px;
+    color:white;
+    background-color: var(--theme-color);
+    border:3px solid var(--theme-color);
+    width: 113px;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 10px;
+}
+.head-section .row button:hover{
+    animation:swing;
+    animation-duration: 0.5s;
+}
 .head-section img {
-    width: 10%;
-    padding-top: 10px;
+    width: 50%;
 }
