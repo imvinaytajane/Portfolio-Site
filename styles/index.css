@@ -156,7 +156,7 @@ canvas.particles-js-canvas-el{
     }
 }
 
-@media (max-width:763px) and (min-width:500px) {
+@media (max-width:763px){
     .head-section{
         margin: 55px 0px;
     }
