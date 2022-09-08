@@ -151,12 +151,6 @@ p {
     border-radius: 10px;
     margin-top: 15px;
 }
-.head-section{
-    margin: 0px !important;
-    padding: 0px;
-}
-
-
 
 /* About us styling */
 .about_section{
@@ -280,11 +274,11 @@ p {
 
 @media (max-width:763px) {
     .head-section {
-        margin: 55px 0px;
+        margin: 2px 0px;
     }
 
     .head-section .row h1 {
-        font-size: 46px;
+        font-size: 40px;
         text-align: center;
     }
 
@@ -325,7 +319,7 @@ p {
     }
 
     .head-section img {
-        width: 80%;
-        margin-top: 20px;
+        width: 70%;
+        margin-top: 2px;
     }
 }
