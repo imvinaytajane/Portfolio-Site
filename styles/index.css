@@ -321,6 +321,6 @@ p {
     .head-section img {
         width: 70%;
         margin-top: 2px;
-        bottom: 15px;
+        margin-bottom: 40px;
     }
 }
