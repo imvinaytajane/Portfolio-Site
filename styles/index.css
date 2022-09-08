@@ -8,7 +8,9 @@
 
 * {
     font-family: 'Poppins', sans-serif;
-    color: white;
+}
+.theme{
+    color: var(--theme-color);
 }
 
 body {
@@ -72,10 +74,15 @@ canvas.particles-js-canvas-el {
     width: 17px;
 }
 
+/* .head-section{
+    height: 100vh;
+    overflow: auto;
+} */
 .head-section .row {
     display: flex;
     align-items: center;
-    height: 100hv;
+    height: 100vh;
+    overflow: auto;
 }
 
 .head-section .row h1,
@@ -95,7 +102,7 @@ p {
     content: '';
     position: absolute;
     text-align: center;
-    top: 90px;
+    top: 280px;
     width: 90px;
     height: 2px;
     background-color: white;
@@ -147,6 +154,85 @@ p {
 
 
 
+/* About us styling */
+.about_section{
+    background-color: #282A39;
+    padding: 200px 0px;
+}
+
+.about_section #heading{
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    line-height: 57px;
+}
+
+.about_section .lets_talk{
+    color: white;
+    font-weight: 400;
+    margin-top: 14px;
+}
+
+.about_section #info_gmail{
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--theme-color);
+    margin-top: 35px;
+    word-spacing: 6px;
+}
+
+.about_section .contact_info{
+    margin-top: 15px;
+}
+
+.about_section .contact_info h5{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    word-spacing: 6px;
+}
+
+.about_section .about_me_right #txt{
+    font-size: 15px;
+    margin-top: 13px;
+    line-height: 25px;
+    color: var(--secondary-color);
+}
+
+.about_section .about_me_right hr{
+    margin: 0px;
+    border: 0.5px solid var(--theme-color);
+    width: 6rem;
+}
+
+.about_section .about_me_right table td{
+    border: none;
+    color: white;
+    font-size: 13px;
+}
+
+.about_section .about_me_right button{
+    border-radius: 7px;
+    font-size: 15px;
+    color: white;
+    background-color: var(--theme-color);
+    border: 3px solid var(--theme-color);
+    font-family: 'Poppins',sans-serif;
+    margin-top: 10px;
+}
+
+.about_section .about_me_right button:hover{
+    animation: swing;
+    animation-duration: 0.5s;
+    background-color: white;
+    color: black;
+    border-color: white;
+
+}
+
+
+
+
 
 
 /* Media Queries */
@@ -176,6 +262,16 @@ p {
     .head-section .row button {
         font-size: 15px;
     }
+
+
+    /* about section */
+    .about_section .about_me_right #txt{
+        font-size: 12px;
+    }
+    .about_section #heading{
+        font-size: 27px;
+    }
+
 }
 
 @media (max-width:763px) {
