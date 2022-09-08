@@ -274,7 +274,7 @@ p {
 
 @media (max-width:763px) {
     .head-section {
-        margin: 2px 0px;
+        margin: 2px 0px !important;
     }
 
     .head-section .row h1 {
