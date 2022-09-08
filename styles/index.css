@@ -74,10 +74,10 @@ canvas.particles-js-canvas-el {
     width: 17px;
 }
 
-/* .head-section{
-    height: 100vh;
-    overflow: auto;
-} */
+.head-section{
+    margin: 0px;
+    padding: 0px;
+}
 .head-section .row {
     display: flex;
     align-items: center;
@@ -150,6 +150,10 @@ p {
     width: 50%;
     border-radius: 10px;
     margin-top: 15px;
+}
+.head-section{
+    margin: 0px !important;
+    padding: 0px;
 }
 
 
