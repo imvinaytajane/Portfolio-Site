@@ -1,4 +1,4 @@
 # portfolio
 
 Vinay Tajane
-link: https://imvinaytajane.netlify.app/
+link: https://vinaytajane.site
