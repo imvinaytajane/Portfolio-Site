@@ -413,7 +413,15 @@ nav > .nav.nav-tabs{
   }
 
   /* footer-area */
-  
+  .footer-area{
+    color: var(--secondary-color);
+  }
+  .footer-area p{
+    color: var(--secondary-color);
+  }
+  .footer-area ul li{
+    color: var(--secondary-color);
+  }
 
 
 
