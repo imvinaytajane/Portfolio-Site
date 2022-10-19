@@ -5,6 +5,8 @@
     --theme-color: #F87652;
     --secondary-color: #bbbbbb;
     --bg-list-color:#81818180;
+    --bg-color-for-form-input:#ffffff24;
+    --border-color-for-form-inputs:#c4c4c44a;
 }
 
 * {
@@ -316,11 +318,14 @@ nav > .nav.nav-tabs{
       color:#fff;
       background:var(--background-color);
       border-radius:0;
+      border-radius: 20px;
+      margin:0px 10px;
+      width: 0px;
   }
   nav > div a.nav-item.nav-link.active{
-    background-color: #e74c3c;
-    border-radius: 10px;
-    margin:0px 3px;
+    background-color: var(--theme-color);
+    border-radius: 20px;
+    margin:0px 10px;
   }
 
   nav > div a.nav-item.nav-link.active:after
@@ -328,14 +333,14 @@ nav > .nav.nav-tabs{
     content: "";
     position: relative;
     bottom: -55px;
-    left: -40%;
+    left: -15%;
     border: 15px solid transparent;
-    border-top-color: #e74c3c ;
+    border-top-color: var(--theme-color) ;
   }
   .tab-content{
       line-height: 25px;
-      border-bottom:5px solid #e74c3c;
-      padding:30px 25px;
+      border-bottom:5px solid var(--theme-color);
+      padding:18px 25px;
       color: rgb(208, 208, 208);
       height: 150px;
   }
@@ -344,9 +349,60 @@ nav > .nav.nav-tabs{
   nav > div a.nav-item.nav-link:focus
   {
     border: none;
-      background: #e74c3c;
-      border-radius:10px;
-      transition:background 0.20s linear;
+      background: var(--theme-color);
+      border-radius:20px;
+      transition:background 0.5s linear;
+  }
+
+  /* contact me */
+  .contact_section{
+    margin-top: 15px;
+    background-color: #282A39;
+    padding:10px 0px 170px 0px;
+  }
+  .contact_section .heading{
+    font-weight: 600;
+    font-size: 50px;
+  }
+  .contact_section hr{
+    border: 0.5px solid var(--theme-color);
+    width: 6rem;
+    margin: 12px 0px;
+  }
+  .contact_section .txt{
+    color: var(--secondary-color);
+    font-size: 13px;
+  }
+  .form-group{
+    margin: 10px; 
+  }
+
+  .contact_section form .form-control{
+    background: var(--bg-color-for-form-input);
+    border: 2px solid var(--border-color-for-form-inputs);
+    border-radius: 0px;
+    color: white;
+  }
+  .contact_section form button{
+    background: var(--theme-color);
+    border: 2px solid var(--theme-color);
+    color: white;
+    width: 100px;
+    font-size: 15px;
+  }
+  .contact_section form button:hover{
+    animation: swing;
+    animation-duration: 0.5s;
+  }
+  .contact_section ul li{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+
+  .contact_section ul li .fa{
+    color: var(--theme-color);
+
   }
 
 
