@@ -358,7 +358,7 @@ nav > .nav.nav-tabs{
   .contact_section{
     margin-top: 15px;
     background-color: #282A39;
-    padding:10px 0px 170px 0px;
+    padding:20px 0px 100px 0px;
   }
   .contact_section .heading{
     font-weight: 600;
@@ -404,6 +404,16 @@ nav > .nav.nav-tabs{
     color: var(--theme-color);
 
   }
+  .contact_section .contact-right{
+    padding-top: 55px;
+  }
+  .contact_section iframe{
+    border-radius: 10px;
+
+  }
+
+  /* footer-area */
+  
 
 
 
