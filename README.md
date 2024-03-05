@@ -1,4 +1,4 @@
 # portfolio
 
 Vinay Tajane
-link: https://vinaytajane.site
+link: https://imvinaytajane.github.io/portfolio/
