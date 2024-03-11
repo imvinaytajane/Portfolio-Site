@@ -69,10 +69,10 @@ tabs.forEach((tab) => {
     });
 });
 
-/*==================== SERVICES MODAL ====================*/
-const modalViews = document.querySelectorAll(".services__modal");
-const modalBtns = document.querySelectorAll(".services__button");
-const modalCloses = document.querySelectorAll(".services__modal-close");
+/*==================== certificates MODAL ====================*/
+const modalViews = document.querySelectorAll(".certificates__modal");
+const modalBtns = document.querySelectorAll(".certificates__button");
+const modalCloses = document.querySelectorAll(".certificates__modal-close");
 
 let modal = function (modalClick) {
     modalViews[modalClick].classList.add("active-modal");
